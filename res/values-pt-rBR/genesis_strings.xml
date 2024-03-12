@@ -223,4 +223,33 @@
 
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloqueie automaticamente se você digitar um PIN correto. Isso é um pouco menos seguro do que tocar em Enter para confirmar.</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorar sinalizadores de segurança</string>
+    <string name="ignore_window_secure_summary">Remova os limites de captura de tela e gravação de tela para todos os aplicativos.</string>
+
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Toque para desativar</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de status ou na tela de bloqueio para desativar a tela</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do entalhe</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ocultar status de desenvolvedor</string>
+    <string name="hide_developer_status_summary">Ocultar status de desenvolvedor de aplicativos</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_title">Indicador de bateria</string>
+    <string name="status_bar_battery_style_title">Estiloda bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone retrato</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Ocultar</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
 </resources>
