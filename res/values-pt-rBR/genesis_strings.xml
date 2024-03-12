@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2023 GenesisOS
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Depuração enraizada</string>
+    <string name="adb_enable_summary_root">Permitir a execução da depuração do Android como root</string>
+
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Pressione longamente o sensor de impressão digital para desbloquear o telefone</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Pressione longamente o sensor de impressão digital para desbloquear o tablet</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Pressione longamente o sensor de impressão digital para desbloquear o dispositivo</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Para ativar a tela e desbloquear, pressione e segure o sensor de impressão digital sob a tela.</string>
+
+    <!-- App lock -->
+    <string name="app_lock_title">Bloqueio de aplicativo</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g>o aplicativo está protegido</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g>os aplicativos estão protegidos</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Desbloquear</string>
+    <string name="enable_debugging">Habilitar depuração</string>
+    <string name="disable_debugging">Desabilitar depuração</string>
+    <string name="app_lock_packages_title">Aplicativos protegidos</string>
+    <string name="app_lock_packages_summary">Selecione os aplicativos a serem protegidos com biometria ou credenciais do dispositivo</string>
+    <string name="app_lock_timeout_title">Tempo limite de bloqueio automático</string>
+    <string name="app_lock_timeout_summary">Duração de tempo após o qual um aplicativo desbloqueado em segundo plano deve ser bloqueado</string>
+    <string name="app_lock_timeout_summary_5secs">5 segundos</string>
+    <string name="app_lock_timeout_summary_10secs">10 segundos</string>
+    <string name="app_lock_timeout_summary_30secs">30 segundos</string>
+    <string name="app_lock_timeout_summary_1min">1 minuto</string>
+    <string name="app_lock_timeout_summary_5mins">5 minutos</string>
+    <string name="app_lock_timeout_summary_10mins">10 minutos</string>
+    <string name="app_lock_timeout_summary_30mins">30 minutos</string>
+    <string name="app_lock_notifications_title">Redigir notificações</string>
+    <string name="app_lock_notifications_summary">O conteúdo de notificação será ocultado e recolhido para aplicativos selecionados quando eles forem bloqueados. As notificações de alerta serão desabilitadas automaticamente.</string>
+    <string name="app_lock_notifications_disabled_summary">Proteja um aplicativo primeiro</string>
+    <string name="app_lock_biometrics_allowed_title">Habilitar biometria para desbloqueio</string>
+    <string name="app_lock_footer_text">As bolhas serão automaticamente descartadas após o tempo limite</string>
+    <string name="enable_protection">Habilitar proteção</string>
+    <string name="hide_from_launcher_title">Ocultar do iniciador</string>
+    <string name="hide_from_launcher_summary">Impedir que este aplicativo apareça em qualquer inicializador. Requer uma reinicialização do inicializador para que as alterações entrem em vigor.</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume por aplicativo</string>
+    <string name="app_volume_title">Controle de volume por aplicativo</string>
+    <string name="app_volume_summary">Permite definir diferentes níveis de volume para cada aplicativo</string>
+
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Brilho automático de disparo único</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste de brilho só ocorrerá no momento em que a tela for ligada</string>
+
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Use a taxa de atualização da tela de 60 Hz para economizar energia quando a Economia de bateria estiver ativada</string>
+
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Tecnologia</string>
+    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Saúde</string>
+    <string name="battery_health_good">Boa</string>
+    <string name="battery_health_overheat">Superaquecida</string>
+    <string name="battery_health_dead">Substituir</string>
+    <string name="battery_health_over_voltage">Sobretensão</string>
+    <string name="battery_health_unspecified_failure">Falha não especificada</string>
+    <string name="battery_health_cold">Fria</string>
+    <string name="battery_health_unknown">Desconhecida</string>
+
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperatura</string>
+    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Tensão</string>
+    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Capacidade de projeto</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Capacidade máxima</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Controle de carga</string>
+    <string name="charging_control_summary">Personalize o cronograma de carregamento e os limites da bateria</string>
+    <string name="charging_control_enable_title">Habilitar controle de carregamento</string>
+    <string name="charging_control_mode_title">Modo de carregamento</string>
+    <string name="charging_control_mode_auto_title">Agendamento automático</string>
+    <string name="charging_control_mode_auto_summary">Determina automaticamente quando iniciar o carregamento com base nos alarmes definidos</string>
+    <string name="charging_control_mode_custom_title">Cronograma personalizado</string>
+    <string name="charging_control_mode_custom_summary">Defina um tempo alvo para carga total</string>
+    <string name="charging_control_mode_limit_title">Limite de carregamento</string>
+    <string name="charging_control_mode_limit_summary">Limite a cobrança a uma determinada porcentagem</string>
+    <string name="charging_control_start_time_title">Hora de início</string>
+    <string name="charging_control_start_time_summary">O controle de carregamento é ativado quando você começa a carregar após %s</string>
+    <string name="charging_control_target_time_title">Tempo alvo para carga total</string>
+    <string name="charging_control_target_time_summary">A bateria estará totalmente carregada em %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <string name="reset">Reset</string>
+
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Balanço de cores</string>
+    <string name="color_mode_balance_red">Nível de vermelho</string>
+    <string name="color_mode_balance_green">Nível de verde</string>
+    <string name="color_mode_balance_blue">Nível de azul</string>
+    <string name="keywords_color_balance">cor, balanço de cores, correção de cores, vermelho, verde, azul, LiveDisplay</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Configurações de rotação</string>
+    <string name="display_rotation_enabled">A rotação automática está habilitada</string>
+    <string name="display_rotation_disabled">A rotação automática está desabilitada</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modos de rotação</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
+
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Força LTE CA</string>
+    <string name="force_lte_ca_summary">Forçar a agregação de operadora LTE a funcionar</string>
+
+    <!-- GenesisOS Maintainer -->
+    <string name="genesis_maintainer">Mantenedor</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Aumentando o volume do toque</string>
+    <string name="increasing_ring_min_volume_title">Volume inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo de aceleração</string>
+
+    <!-- Navbar category -->
+    <string name="navbar_category">Barra de navegação</string>
+
+    <!-- 3-Button navigation settings -->
+    <string name="navbar_invert_layout_title">Inverter layout da barra de navegação</string>
+    <string name="navbar_invert_info">Troque os botões \"Voltar\" e \"Recentes\" na barra de navegação</string>
+
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Espaço IME</string>
+    <string name="navigation_bar_ime_space_summary">Espaço sob opções de teclado</string>
+    <string name="ime_narrow">Estreito</string>
+    <string name="ime_default">Padrão</string>
+    <string name="ime_hidden">Ocultar</string>
+
+    <!-- Private DNS -->
+    <!-- AdGuard DNS Option -->
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+    <!-- Cleanbrowsing DNS Option -->
+    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
+    <!-- Cloudflare DNS Option -->
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
+    <!-- Open DNS Option -->
+    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
+    <!-- Quad9 DNS Option -->
+    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
+    <!-- AdGuard DNS hostname -->
+    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
+    <!-- Cleanbrowsing DNS hostname -->
+    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
+    <!-- Cloudflare DNS hostname -->
+    <string name="private_dns_hostname_cloudflare" translatable="false">one.one.one.one</string>
+    <!-- Open DNS hostname -->
+    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
+    <!-- Quad9 DNS hostname -->
+    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Taxa de atualização</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptável)</string>
+    <string name="refresh_rate_vrr_title">Taxa de atualização adaptável</string>
+    <string name="refresh_rate_vrr_summary">Reduza automaticamente a taxa de atualização quando o monitor estiver ocioso, para economizar energia. Pode causar cintilação ou mudança de cor em determinados monitores</string>
+    <string name="refresh_rate_footer">Uma taxa de atualização mais alta torna a tela mais suave, mas aumenta o consumo de energia</string>
+    <string name="keywords_refresh_rate">atualizar, taxa, suave, alta, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Indicador de gestos</string>
+    <string name="show_navbar_gesture_bar_summary">Mostrar indicador de gestos na parte inferior da tela</string>
+
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Inteligente</string>
+    <string name="smart_5g_summary">Alterne automaticamente entre 5G e 4G para reduzir o consumo da bateria</string>
+
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que clientes de hotspot usem as conexões VPN deste dispositivo para conectividade upstream</string>
+
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Embaralhamento do layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Layout do PIN embaralhado ao desbloquear o dispositivo</string>
+
+    <!-- Enforce DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Desativar para VPN</string>
+    <string name="vpn_enforce_dns_summary">Desabilitar o DNS privado quando conectado a uma VPN\nIrá restaurar ao desconectar</string>
+
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloqueie automaticamente se você digitar um PIN correto. Isso é um pouco menos seguro do que tocar em Enter para confirmar.</string>
+</resources>
