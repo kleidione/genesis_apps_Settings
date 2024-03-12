@@ -75,6 +75,12 @@
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
+    <com.genesis.support.preferences.SystemSettingSwitchPreference
+        android:key="three_finger_gesture"
+        android:title="@string/three_finger_gesture"
+        android:summary="@string/three_finger_gesture_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="gesture_screen_off_udfps_input_summary"
         android:title="@string/ambient_display_screen_off_udfps_title"
